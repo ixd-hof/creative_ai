@@ -38,7 +38,7 @@ $ crontab -e
 ... and exit ...
 ```
 
-###Known bugs:
+### Known bugs:
 * Script searches for other CUDA versions when run via cron (solution: export path in script)
 * Script's user can't delete other users images on GDrive (solution: move interpreted images instead of delete)
 
